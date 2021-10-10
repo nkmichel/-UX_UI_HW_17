@@ -5,7 +5,7 @@ nav {
   background: #3d405b;
   height: 40px;
 }
-ul a {
+ul li {
   padding: 20px 40px;
   font-family: playfair display, Helvetica, sans-serif;
   text-decoration: none;
