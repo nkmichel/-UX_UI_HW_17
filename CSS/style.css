@@ -1,9 +1,13 @@
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #3d405b;
-  height: 40px;
+body {
+  margin: 0;
+}
+header {
+  background-color: #3d405b;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
 }
 header li {
   display: inline-block;
@@ -11,51 +15,34 @@ header li {
   font-family: playfair display, Helvetica, sans-serif;
   text-decoration: none;
   color: aliceblue;
+  font-size: larger;
 }
-header ul {
-  float: right;
-  color: white;
+.heroImg p {
+  display: inline-block;
+  font-family: playfair display, Helvetica, sans-serif;
+  text-decoration: none;
 }
-
-.logo {
-  width: 10%;
-  padding: 1%;
-  text-align: center;
-  justify-self: flex-start;
-}
-.logo img {
+header img {
   height: 92px;
   width: 105px;
 }
-
+.heroImg {
+  background-color: #ebebeb;
+  padding: 100px 15px;
+}
 .content img {
-  width: 500px;
+  width: 300px;
   margin: 0 auto;
-  align-self: baseline;
-  justify-self: left;
-  display: flex;
-  padding: 50px;
-}
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #3d405b;
-  height: 100px;
-}
-
-footer a {
-  padding: 20px 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  color: aliceblue;
-}
-p {
-  padding: 20px 40px;
-  font-family: playfair display, Helvetica, sans-serif;
-  text-align: center;
+  align-self: center;
+  justify-self: center;
   display: inline-block;
-
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #ffffff;
+  text-align: center;
 }
 button {
   background-color: #bdb9ec;
@@ -66,4 +53,23 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 4px;
 }
+footer {
+  background-color: #3d405b;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+  font-family: playfair display, Helvetica, sans-serif;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: larger;
+}
+
