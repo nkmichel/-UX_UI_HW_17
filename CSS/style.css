@@ -5,12 +5,18 @@ nav {
   background: #3d405b;
   height: 40px;
 }
-ul li {
-  padding: 20px 40px;
+header li {
+  display: inline-block;
+  padding: 0px 5px;
   font-family: playfair display, Helvetica, sans-serif;
   text-decoration: none;
   color: aliceblue;
 }
+header ul {
+  float: right;
+  color: white;
+}
+
 .logo {
   width: 10%;
   padding: 1%;
@@ -28,6 +34,7 @@ ul li {
   align-self: baseline;
   justify-self: left;
   display: flex;
+  padding: 50px;
 }
 footer {
   display: flex;
@@ -47,6 +54,8 @@ p {
   padding: 20px 40px;
   font-family: playfair display, Helvetica, sans-serif;
   text-align: center;
+  display: inline-block;
+
 }
 button {
   background-color: #bdb9ec;
